@@ -1,0 +1,14 @@
+
+_squid:HiddenFieldCheck"?Rename "description" which hides the field declared at line 24.(âéÎŒ
+Zsquid:HiddenFieldCheck":Rename "estado" which hides the field declared at line 25.(ò­ãá
+`squid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ºÖ
+lsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ”øú
+hsquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(æ”Àíüÿÿÿÿ
+_squid:HiddenFieldCheck":Rename "origen" which hides the field declared at line 26.(‘ÎŠ›ıÿÿÿÿ
+bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(…ï€¾8‹Àƒ +
+vsquid:S1067"ZReduce the number of conditional operators (7) used in the expression (maximum allowed 3).(…ï€¾8«Âãƒ +
+Xsquid:HiddenFieldCheck"8Rename "cant" which hides the field declared at line 27.(Ğİï›
+]squid:HiddenFieldCheck"8Rename "name" which hides the field declared at line 23.(¹áûòıÿÿÿÿ
+gsquid:S1132"FMove the "" string literal on the left side of this string comparison.(€ú·Œùÿÿÿÿ8«Âãƒ +
+bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(²¼‰‘8«Âãƒ +
+bsquid:S1132"FMove the "" string literal on the left side of this string comparison.(Ç§èÅ8«Âãƒ +

@@ -1,0 +1,13 @@
+
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ÅÎ•„øÿÿÿÿ
+?squid:S1444"*Make this "public static user" field final(ıû¸İ
+a$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(şÚ×øÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦Ûı–
+^squid:HiddenFieldCheck"9Rename "realm" which hides the field declared at line 25.(²áèæùÿÿÿÿ
+|"squid:ClassVariableVisibilityCheck"PMake user a static final constant or non-public and provide accessors if needed.(ıû¸İ
+`squid:S1132"FMove the "" string literal on the left side of this string comparison.(ÅÎ•„øÿÿÿÿ
+jsquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(”–ßÑ
+Msquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼ü
+Ysquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+Usquid:UselessImportCheck"4Remove this unused import 'android.app.Application'.(¢¶ÿI
+hsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(å´Ê«ÿÿÿÿÿ

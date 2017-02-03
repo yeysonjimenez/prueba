@@ -1,0 +1,11 @@
+
+psquid:S1450"VRemove the "addItem" field and declare it as a local variable in the relevant methods.(´íí–ûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·™•›ùÿÿÿÿ
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ŽºÖ8­²º„ +
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·´¡Ñ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÏùŠó
+Dsquid:S1068"0Remove this unused "DATA_TO_SHOW" private field.(îŠ¹r
+psquid:S1450"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(ý…ªýÿÿÿÿ
+gsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ŽºÖ8­²º„ +
+-squid:S2095"Close this "Realm".(²áèæùÿÿÿÿ
+csquid:MaximumInheritanceDepth"<This class has 9 parents which is greater than 5 authorized.(ú«Ã¨

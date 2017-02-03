@@ -1,0 +1,13 @@
+
+;squid:S2131"Use "Integer.toString" instead.(ûâî¤8Ä¶‡ +
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö¥Ìï8€Ç† +
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïİ8ÍÆÕ† +
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“×ó¿8€Ç† +
+‹squid:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(¼¯«8ı›Á† +
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®±ã¿ÿÿÿÿÿ8€Ç† +
+Ksquid:S1172"/Remove this unused method parameter "rowIndex".(Ïİ8ÅÆÕ† +
+…squid:S1151"jReduce this switch case number of lines from 12 to at most 5, for example by extracting code into methods.(û¿48¹ƒÑ† +
+4squid:S2095"Close this "Realm".(î§«òÿÿÿÿÿ8€Ç† +
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢«üìşÿÿÿÿ8€Ç† +
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(İï¾¬ùÿÿÿÿ8€Ç† +
+jsquid:UselessImportCheck"ARemove this unused import 'co.com.quipux.prueba.ActivityProduct'.(ßË”¿8î™È‡ +
