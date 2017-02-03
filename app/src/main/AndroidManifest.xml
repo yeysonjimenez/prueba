@@ -24,11 +24,19 @@
             </intent-filter>
         </activity>
         <activity
-        android:name=".Product"
+        android:name=".ActivityProduct"
         android:label="@string/app_name" >
     </activity>
         <activity
             android:name=".ItemForm"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ActivityProfile"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ActivityEditProfile"
             android:label="@string/app_name" >
         </activity>
     </application>

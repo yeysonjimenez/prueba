@@ -3,20 +3,18 @@ package co.com.quipux.prueba;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.support.annotation.NonNull;
 import android.app.LoaderManager.LoaderCallbacks;
-
 import android.content.CursorLoader;
+import android.content.Intent;
 import android.content.Loader;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
-
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -275,6 +273,8 @@ public class ActivityLogin extends BaseActivity implements LoaderCallbacks<Curso
     int IS_PRIMARY = 1;
   }
 
+
+
   private void addEmailsToAutoComplete(List<String> emailAddressCollection) {
     //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
     ArrayAdapter<String> adapter =
@@ -351,12 +351,19 @@ public class ActivityLogin extends BaseActivity implements LoaderCallbacks<Curso
         realm.where(User.class).equalTo("email", Email).equalTo("pass", pass).findAll();
     if (!results.isEmpty()) {
       User user = results.first();
-      if (user.getName().equalsIgnoreCase(UserRoll.ROLL)) {
+      if (user.getName().equalsIgnoreCase(UserRoll.ROLL) ) {
         Log.e("login usuario admin", user.getUser());
-        Intent i = new Intent(this, Product.class);
+        Intent i = new Intent(this, ActivityProduct.class);
         i.putExtra("roll", UserRoll.ROLL);
         this.startActivity(i);
-      } else {
+      }
+      if (user.getName().equals(UserRoll.ROL_USURIO))
+      {
+        Log.e("login usuario user", user.getUser());
+        Intent i = new Intent(this, ActivityProduct.class);
+        i.putExtra("roll", UserRoll.ROL_USURIO);
+        this.startActivity(i);
+      }else {
 
       }
     }

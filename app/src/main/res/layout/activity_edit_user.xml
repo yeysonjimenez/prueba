@@ -1,7 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:fillViewport="true"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#e3e3e3"
+      android:orientation="vertical"
+
+      >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/fullnameWrapper"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nombre"
+            android:inputType="textPersonName"
+            />
+
+      </android.support.design.widget.TextInputLayout>
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/lastNamePhoneWrapper"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/emailWrapper"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="correo"
+            android:inputType="textEmailAddress"
+            />
+
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/fechaWrapper"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+        <io.blackbox_vision.datetimepickeredittext.view.DatePickerInputEditText
+            android:id="@+id/fecha_nacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="fecha acimiento"
+            app:dateFormat="dd/MM/yyyy"
+            app:maxDate="01/01/2018"
+            app:minDate="01/01/1981"
+            />
+
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/documentoWrapper"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+
+        <EditText
+            android:id="@+id/documento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Documento"
+            />
+
+      </android.support.design.widget.TextInputLayout>
+
+
+
+
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:enabled="true"
+          android:hint="contrasena"
+          android:inputType="text"
+          />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/userName_Wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameWrapper"
+        android:layout_marginTop="4dp"
+        >
+
+    </android.support.design.widget.TextInputLayout>
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:visibility="visible"
+        app:ms_alignLabels="false"
+        app:ms_arrowSize="18dp"
+        app:ms_enableErrorLabel="false"
+        app:ms_enableFloatingLabel="false"
+        app:ms_multiline="false"
+        app:ms_thickness="2dp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#aaa"
+        android:text="crear"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        />
+
+
+  </LinearLayout>
 
 </LinearLayout>
+    </ScrollView>

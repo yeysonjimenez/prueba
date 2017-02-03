@@ -4,25 +4,36 @@
     android:layout_width="match_parent"
     android:padding="20dp"
     android:layout_height="match_parent">
-
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:inputType="textPersonName"
       android:text="Name"
       android:gravity="center"
+      android:hint="Nombre"
       android:ems="10"
       android:id="@+id/edtName"
       />
+  </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:inputType="textPersonName"
       android:ems="10"
       android:gravity="center"
+      android:hint="Descripcion"
       android:id="@+id/edtDescription"
-      android:text="Description"
       />
+  </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -30,26 +41,38 @@
       android:text="Estado"
       android:ems="10"
       android:gravity="center"
+      android:hint="estado"
       android:id="@+id/edtEstado"
       />
+</android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:inputType="textPersonName"
       android:text="Origen"
       android:ems="10"
+      android:hint="Origen"
       android:gravity="center"
       android:id="@+id/edtOrigen"
       />
+    </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:inputType="textPersonName"
+      android:inputType="number"
       android:text="Cantidad"
       android:ems="10"
+      android:hint="Numero"
       android:gravity="center"
       android:id="@+id/edtCantidad"
       />
+    </android.support.design.widget.TextInputLayout>
   <Button
       android:text="Guardar"
       android:layout_width="match_parent"

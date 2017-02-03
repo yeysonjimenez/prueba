@@ -16,6 +16,15 @@ public class ItemsProduct extends RealmObject {
   private String estado;
   private String origen;
   private String cantidad;
+  private String fecha;
+
+  public String getFecha() {
+    return fecha;
+  }
+
+  public void setFecha(String fecha) {
+    this.fecha = fecha;
+  }
 
   public String getName() {
     return name;
